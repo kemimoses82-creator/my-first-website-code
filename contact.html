@@ -1,0 +1,51 @@
+<script>
+if (!localStorage.getItem("loggedIn")) {
+    window.location.href = "auth.html";
+}
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Kemz Graphics</title>
+<link rel="stylesheet" href="css/contact.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">Kemz Graphics</div>
+<nav>
+    <a href="home.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="academiccentre.html">Academy</a>
+    <a href="#" id="authLink">Login</a>
+</nav>
+</header>
+
+<!-- CONTACT SECTION WITH BACKGROUND -->
+<section class="contact-hero">
+  <div class="contact-overlay">
+    <div class="section-container">
+      <h2>Contact Kemz Graphics</h2>
+      <p>Fill out the form below and we’ll get back to you fast!</p>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Phone Number">
+        <textarea placeholder="Tell us about your project..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <p>© 2026 Kemz Graphics. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

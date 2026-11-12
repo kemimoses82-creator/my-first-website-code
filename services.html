@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | Kemz Graphics</title>
+
+<link rel="stylesheet" href="css/services.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo">Kemz Graphics</div>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="#" id="authLink">Login</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Our Services</h1>
+  <p>We deliver professional, creative, and high-quality design solutions.</p>
+</section>
+
+<!-- SERVICES -->
+<section class="services-section">
+
+  <div class="services-grid">
+
+    <div class="card">
+      <img src="img/TG FLIER 5.0000_page-0001.jpg" alt="">
+      <h3>Flyer Design</h3>
+      <p>High-impact flyers for events, promotions, and businesses.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/KULI KULI.jpg.jpeg" alt="">
+      <h3>Brand Design</h3>
+      <p>Complete branding solutions including logos and identity.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/7. swdfghjkjhsdfgh.jpg" alt="">
+      <h3>Social Media Graphics</h3>
+      <p>Engaging visuals to boost your online presence.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<footer class="footer">
+  <p>© 2026 Kemz Graphics. All Rights Reserved.</p>
+</footer>
+
+<!-- AUTH CHECK -->
+<script>
+if (!localStorage.getItem("loggedIn")) {
+    window.location.href = "auth.html";
+}
+</script>
+
+</body>
+</html>
